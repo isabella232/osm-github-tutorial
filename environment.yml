@@ -1,0 +1,13 @@
+name: osm-github-tutorial
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - h5netcdf
+  - numpy
+  - matplotlib
+  - xarray
+  - intake
+  - intake-esm
+  - rise
+  
