@@ -3,11 +3,16 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - aiohttp
+  - cartopy
+  - geoviews
   - h5netcdf
+  - hvplot
   - numpy
   - matplotlib
   - xarray
   - intake
-  - intake-esm
+  - intake-stac
+  - sat-search
+  - requests  
   - rise
-  
