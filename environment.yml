@@ -6,13 +6,11 @@ dependencies:
   - aiohttp
   - cartopy
   - geoviews
-  - h5netcdf
   - hvplot
-  - numpy
   - matplotlib
   - xarray
   - intake
-  - intake-stac
-  - sat-search
   - requests  
   - rise
+  - pip:
+    - git+https://github.com/intake/intake-stac
